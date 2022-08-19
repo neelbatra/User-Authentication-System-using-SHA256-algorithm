@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="container">
+        <h1>dashboard</h1>
+        <div class="forms">
+            <div id="dashboard">
+
+                <div class="input-field button">
+                    <input type="button" value="check_details" onclick="showData()">
+                </div>
+
+                <div id="display_id">
+                    <div>
+                        <span>ID: </span>
+                    </div>
+                    <div id="print_id">
+
+                    </div>
+
+                </div>
+
+                
+                <div id="display_name">
+                    <div>
+                        <span>Name: </span>
+                    </div>
+                    <div id="print_name">
+
+                    </div>
+
+                </div>
+
+                
+                <div id="display_email">
+                    <div>
+                        <span>Email: </span>
+                    </div>
+                    <div id="print_email">
+
+                    </div>
+
+                </div>
+
+
+                <div id="display_salt">
+                    <div>
+                        <span>Salt: </span>
+                    </div>
+                    <div id="print_salt">
+
+                    </div>
+
+                </div>
+
+                
+                <div id="display_pswd">
+                    <div>
+                        <span>Encrypted Password: </span>
+                    </div>
+                    <div id="print_pswd">
+
+                    </div>
+
+                </div>
+
+            
+            
+    
+    
+    
+    
+            </div>
+            <div class="input-field button">
+                <input type="button" value="Logout" onclick="signOut()">
+            </div>
+            
+        </div>
+
+    </div>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="dash.js"></script>
+
+</html>
